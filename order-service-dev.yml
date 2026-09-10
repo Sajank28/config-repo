@@ -1,0 +1,16 @@
+global:
+  message: Welcome to Order service Dev Env
+server:
+  port: 8084
+message: Hello from Dev!
+
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/order_dev
+    username: postgres
+    password: root
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    
